@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>manipulando elementos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+    </div>
+    <script>
+        function openMenu(){
+            if (document.getElementById('menu').style.display === 'flex'){
+                document.getElementById('menu').style.display = 'none'
+            }
+            else{                       
+                document.getElementById('menu').style.display = 'flex'
+                document.getElementById('menu-hamburguer').style.display = 'none'dd
+                document.getElementById('close-hamburguer').style.display = 'flex'
+            }
+         }
+            function closeMenu(){
+            if (document.getElementById('menu').style.display === 'flex'){
+                document.getElementById('menu').style.display = 'none'
+                document.getElementById('menu-hamburguer').style.display = 'flex'
+                document.getElementById('close-hamburguer').style.display = 'none'
+            }
+        }
+        
+    </script>
+</body>
+</html>
